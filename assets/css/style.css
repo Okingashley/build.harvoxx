@@ -1,0 +1,645 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: 100%;
+    height: 100vh;
+    background-color: #fff3e4;
+    border-radius: 0 0 60% 60%/ 80px;
+    overflow: hidden;
+    
+}
+nav{
+    background-color: #fff;
+    width: 100%;
+    height: 12vh;
+    margin: auto;
+    top: 0;
+    box-shadow: rgba(0, 0, 0, 0.1)0px 0px 25px;
+}
+.nav-content{
+    width: 85%;
+    margin:auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 12vh;
+}
+   
+.log-1{
+    position: relative;
+    width: 50%;
+    top:-10px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.diamond{
+    width: 25px;
+    height: 25px;
+    background-color: rgb(220, 164, 36);
+    transform:rotate(45deg);
+    position: absolute;
+    
+}
+ .logo{
+    color: #2f327d;
+    text-decoration: none;
+    font-weight: 600;
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 5px;
+    width: 100%;
+    font-size: 20px;
+}
+body header nav .nav-buttons button{
+    background-color: rgb(230, 212, 212);
+    border-radius: 30px;
+    border:none;
+    width: 140px;
+    height: 40px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.build-btn{
+    background-color: rgb(220, 164, 36);
+    border-radius: 30px;
+    color:white;
+    border: none;
+    font-size: 15px;
+    padding: 10px 30px;
+    margin-left: 15px;
+    margin-bottom: 10vh;
+}
+
+/* HOME PAGE SECTION */
+.home-page{
+    background-color:  #fff3e4;
+    width: 85%;
+    display: flex;
+    margin:auto;
+    margin-top: 12vh;
+     
+}
+
+
+.home-page .left{
+   background-color:  #fff3e4;
+    width: 50%;
+    
+
+}
+
+
+.home-page .left h1{
+    font-size:35px;
+    color: #2f327d;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+.home-page .left p{
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.home-page .left h1 span{
+    color: rgb(155 ,100 ,17);
+
+}
+.home-page .left .build-now{
+    margin: 0;
+   
+}
+.home-page .left .build-now:hover{
+    background-color: rgb(81, 61, 31);
+}
+.home-page .right{
+    background-color:  #fff3e4;
+     width: 50%;
+ }
+ .home-page .right img{
+    width: 100%;
+ }
+
+/* MIDDLE PAGE */
+.middle-page{
+    background-color:  white;
+    width: 85%;
+    margin: auto;
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    gap: 50px;
+    
+}
+.middle-page .left-side{
+    background-color:white ;
+    width: 50%;
+}
+.middle-page .left-side h2{
+    font-size: 35px;
+    color: rgb(155 ,100 ,17);
+    margin-bottom: 45px;
+}
+.middle-page .left-side p{
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.middle-page .left-side h2 span{
+    color: #2f327d;
+}
+ .build-us .build-with-us{
+    border-radius: 30px;
+    color: rgb(155 ,100 ,17);
+    border: 1px solid rgba(220, 164, 36, 0.5);
+    width: 140px;
+    font-size: 15px;
+    padding: 15px 40px;
+    margin-left: 0px;
+}
+   
+.right-side{
+    background-color: white;
+    width:50%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-bottom: 25PX;
+   
+}
+.right-side .box{
+    width: 45%;
+    
+}
+.right-side .box img{
+    width: 40px;
+    height: 40px;
+    padding: 20px;
+}
+.right-side .box h2{
+    color: rgb(47, 50, 125);
+    margin-top: 30px;
+    margin-bottom: 25px;
+    font-size: 25px;
+    font-weight: 600;
+}
+.right-side .box p{
+    color: rgb(47, 50, 125);
+    font-size: 16px;
+    font-weight: 600;
+}
+ .image-container{
+    height: 80px;
+    width: 80px;
+    border-radius: 80px;   
+}
+.blue{
+    background-color: rgb(35, 189, 238);
+    
+}
+.pink{
+    background-color: rgb(243, 97, 123);
+    
+}
+.orange{
+    background-color: rgb(255, 86, 28);
+    
+}
+.green{
+    background-color: rgb(65, 184, 131);
+    
+}
+
+/* GURANTEED SECTION */
+.guaranteed{
+    width: 85%;
+    margin: auto;
+    margin-top: 100px;
+    text-align: center;
+    margin-bottom: 150px;
+}
+.guaranteed h1{
+    margin-bottom: 15px;
+    color: #2f327d;
+    font-size: 40px;
+    font-weight: 600;
+    
+}
+.guaranteed h1 span{
+    color: rgb(155 ,100 ,17);
+}
+.guaranteed p{
+    font-size: 22px;
+    color: rgb(47, 50, 125);
+}
+.guaranteed-boxes{
+    display: flex;
+    gap:30px;
+    margin: 70px 0;
+    
+}
+.guaranteed-box{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    padding: 0 10px;
+    box-shadow: rgba(0, 0, 0, 0.1)0px 0px 25px;
+
+}
+.guaranteed-box h2{
+    color: rgb(47, 50, 125);
+    margin-top: 30px;
+    margin-bottom: 25px;
+    font-size: 35px;
+    font-weight: 600;
+}
+.guaranteed-box  p{
+    color: rgb(47, 50, 125);
+    font-size: 16px;
+    font-weight: 600;
+}
+.step{
+    background-color: rgb(91, 114, 238);
+    margin-top: -30px;
+    margin-left: 55px;
+}
+.step img{
+    width: 40px;
+    height: 40px;
+    padding: 20px;
+}
+.build-with-us{
+    border-radius: 30px;
+    color: rgb(155 ,100 ,17);
+    border: 1px solid rgba(220, 164, 36, 0.5);
+    width: 140px;
+    font-size: 15px;
+    padding: 15px 40px;
+    margin-left: 0px;
+}
+/*TRUSTED*/
+.trusted{
+    background-color:  white;
+    width: 85%;
+    display: flex;
+    margin:auto;
+    text-align: center;
+    
+}
+.trusted h2{
+    font-size: 40px;
+    padding-bottom: 50px;
+    margin-left: 40%;
+    margin-top: 15px;
+    color: #2f327d;
+
+}
+.source-code{
+    background-color:  white;
+    width: 85%;
+    height: 400px;
+    display: flex;
+    margin:auto;
+    
+}
+
+.source-code .left{
+    width: 50%;
+    margin-top: 30px;
+}
+.source-code .left h3 {
+    font-size: 40px;
+    font-weight: 550;
+    color: #2f327d;
+    margin-top: 120px;
+    margin-bottom: 15px;
+
+}
+.source-code .left p{
+    font-size: 15px;
+    color:  rgb(105, 105, 132);
+}
+.source-code .left h3 span{
+    color: #dca424;
+}
+.source-code .right{
+    width: 50%;
+}
+.source .right img{
+    width: 100%;
+    height: 400px;
+    object-fit: contain; 
+}
+/* WELCOME */
+.welcome{
+    background-color:  white;
+    width: 85%;
+    display: flex;
+    margin:auto;
+    
+} 
+.welcome .left{
+    width: 50%;
+}
+.welcome .right{
+    width: 50%;
+}
+.welcome .right h3{
+    font-size: 40px;
+    font-weight: 550;
+    color: #2f327d;
+    margin-top: 120px;
+    margin-bottom: 15px;
+
+}
+.welcome .right p{
+    font-size: 15px;
+    color: rgb(105, 105, 132);
+
+}
+.welcome .right h3 span{
+    color: #dca424;
+}
+/* VEGAS */
+.vegas{
+    background-color:  white;
+    width: 85%;
+    display: flex;
+    margin:auto;
+    
+}
+.vegas .left{
+    width: 50%;
+}
+.vegas .left h3{
+    font-size: 40px;
+    font-weight: 450;
+    color: #2f327d;
+    margin-top: 95px;
+    margin-bottom: 15px;
+    
+}
+.vegas .left p{
+    font-size: 18px;
+    color: rgb(105, 105, 132);
+}
+.vegas .left h3 span{
+    color: #dca424;
+}
+.vegas .right{
+    width: 50%;
+}
+/* WE ARE RIGHT */
+.we-are-right{
+    background-color:  white;
+    width: 85%;
+    display: flex;
+    margin:auto;
+    margin-bottom: 35px;
+}
+.we-are-right .left{
+    width: 50%;
+}
+.we-are-right .right{
+    width: 50%;
+}
+.we-are-right h3{
+    font-size: 40px;
+    font-weight: 450;
+    color: #2f327d;
+    margin-top: 95px;
+    margin-bottom: 15px;
+}
+.we-are-right h3 span{ 
+    color: #dca424;
+}
+.we-are-right p{
+    font-size: 18px;
+    color: rgb(105, 105, 132);
+}
+/* TRANSPARENCY */
+.transparency{
+    background-color:  white;
+    width: 85%;
+    display: flex;
+    margin:auto;
+    margin-bottom: 55px;
+}
+.transparency .left{
+    width: 50%;
+}
+.transparency .left h3{
+    font-size: 40px;
+    font-weight: 450;
+    color: #2f327d;
+    margin-top: 95px;
+    margin-bottom: 15px;
+}
+.transparency .left h3 span{
+    color: #dca424;
+}
+.transparency .left p{
+    font-size: 18px;
+    color: rgb(105, 105, 132);
+}
+.transparency .right{
+    width: 50%;
+}
+.buttonn .build-with-us{
+    border-radius: 30px;
+    color: rgb(155 ,100 ,17);
+    border: 1px solid rgba(220, 164, 36, 0.5);
+    width: 140px;
+    font-size: 15px;
+    padding: 15px 40px;
+    margin-left: 600px;
+    margin-bottom: 100px;
+}
+/* TRUSTED COMPANIES */
+.trusted-companies{
+    background-color:  white;
+    margin:auto;
+    margin-top: 55px;
+
+}
+.trusted-companies h2{
+   color: rgb(105, 105, 132);
+   font-size: 24px;
+   margin-left: 400px;
+   margin-top: 200px;
+   margin-bottom: 90px;
+   
+}
+.companies{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+}
+.companies .image{
+    width: 14%;
+    margin-right: 25px;
+    margin-bottom: 30px;
+    gap: 30px;
+}
+.companies .image img{
+    width: 100%;
+}
+/* TOOLS */
+.tools{
+    width: 85%;
+    margin: auto;
+    margin-bottom: 30px;
+
+}
+.tools h4{
+    font-size: 25px;
+    color: #2f327d;
+    font-weight: 450px;
+    margin-left: 400px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.tools .used{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.used .tool{
+    width: 14%;
+    margin-right: 25px;
+    margin-bottom: 30px;
+}
+.used .tool img{
+    width: 100%;
+}
+.bottom-btn{
+    border-radius: 30px;
+    color: rgb(155 ,100 ,17);
+    border: 1px solid rgba(220, 164, 36, 0.5);
+    width: 140px;
+    font-size: 15px;
+    padding: 15px 40px;
+    margin-left: 600px;
+}
+footer{
+    width: 100%;
+    height: 200px;
+    background-color:#2f327d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+}
+.logo-1{
+    position: relative;
+    width: 50%;
+    left: 70px;
+    margin-top: 60px;
+}
+
+
+.footer .diamond{
+    width: 25px;
+    height: 25px;
+    background-color: transparent;
+    border: 3px solid  #65DAFF;
+    transform:rotate(45deg);
+    position: absolute;
+}
+
+
+.wick{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: 600;
+    position: absolute;
+    margin-left: 10px;
+    font-size: 20px;
+}
+.save{
+    font-family: Poppins, sans-serif;
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 1.43;
+    text-align: center;
+    margin: 100px;
+}
+
+.save p{
+    display: block;
+}
+
+
+
+
+
+/* TABLET VIEW */
+@media screen and (max-width: 850px)
+{
+    /* NAV BAR */
+    nav{
+        width: 95%;
+        height: 8vh;
+
+    }
+    .logo{
+        font-size: 25px;
+        align-self: center;
+    }
+    .diamond{
+        width: 30px;
+        height: 30px;   
+    }
+
+   .nav-buttons{ 
+    display: none;
+   }
+
+  /* HOME PAGE */
+  .home-page{
+    width: 95%;
+    display: block;
+   }
+   .home-page .left, .home-page right{
+    width: 100%;
+  }
+ .home-page .left h1{
+    margin-top:50px;
+  }
+  /* BUILD WITH HARVOXX */
+  .middle-page{
+ width: 95%;
+ flex-direction: column;
+  }
+  /* GUARANTEED */
+  .guaranteed{
+    flex-wrap: wrap;
+   }
+
+.log-1{
+    width: 70%
+}
+.menu-icon{
+    margin-top: 15px;
+}
+.home-page .left h1{
+    line-height: 1.1rem;
+}
+.home-page .right img{
+    margin-top: 50px;
+}
+}
+
+/* BUILD WITH HARVOXX MOBILE */
+@media screen and (max-width: 450px){
+nav{
+    width: 95%;
+    height: 6vh;
+}
+
+
+}
