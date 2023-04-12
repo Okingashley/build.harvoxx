@@ -11,28 +11,26 @@ header{
     
 }
 nav{
-    background-color: #fff;
+    background-color: white;
     width: 100%;
     height: 12vh;
     margin: auto;
     top: 0;
     box-shadow: rgba(0, 0, 0, 0.1)0px 0px 25px;
+    position: fixed;
 }
 .nav-content{
     width: 85%;
-    margin:auto;
+    margin: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 12vh;
 }
-   
-.log-1{
+   .logo-1{
     position: relative;
     width: 50%;
-    top:-10px;
-    justify-content: center;
-    align-items: center;
+    margin-bottom: 30px;
     
 }
 .diamond{
@@ -534,20 +532,25 @@ footer{
     align-items: center;
     margin-top: 150px;
 }
-.logo-1{
+.footer{
+    justify-content: center;
+    align-items: center;
+}
+ .footer .logo-2{
     position: relative;
     width: 50%;
-    left: 70px;
-    margin-top: 60px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
 }
 
-
-.footer .diamond{
+.footer .logo-2 .diamond{
     width: 25px;
     height: 25px;
     background-color: transparent;
     border: 3px solid  #65DAFF;
-    transform:rotate(45deg);
+    border-radius: 3px;
+    transform: rotate(45deg);
     position: absolute;
 }
 
@@ -558,6 +561,7 @@ footer{
     font-weight: 600;
     position: absolute;
     margin-left: 10px;
+    margin-bottom: 15px;
     font-size: 20px;
 }
 .save{
@@ -571,6 +575,7 @@ footer{
 
 .save p{
     display: block;
+    left: 15px;
 }
 
 
