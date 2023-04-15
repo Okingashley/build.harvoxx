@@ -11,26 +11,29 @@ header{
     
 }
 nav{
-    background-color: white;
+    background-color: #fff;
     width: 100%;
     height: 12vh;
     margin: auto;
     top: 0;
     box-shadow: rgba(0, 0, 0, 0.1)0px 0px 25px;
-    position: fixed;
 }
 .nav-content{
     width: 85%;
-    margin: auto;
+    margin:auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 12vh;
 }
-   .logo-1{
+   
+.logo-1{
     position: relative;
     width: 50%;
-    margin-bottom: 30px;
+    top: -10px;
+    justify-content: center;
+    align-items: center;
+
     
 }
 .diamond{
@@ -83,7 +86,7 @@ body header nav .nav-buttons button{
 
 
 .home-page .left{
-   background-color:  #fff3e4;
+   background-color:  #fff3e4;  
     width: 50%;
     
 
@@ -112,11 +115,14 @@ body header nav .nav-buttons button{
     background-color: rgb(81, 61, 31);
 }
 .home-page .right{
-    background-color:  #fff3e4;
+    background-color:   #fff3e4;
      width: 50%;
+    
  }
  .home-page .right img{
     width: 100%;
+    height: 450px;
+
  }
 
 /* MIDDLE PAGE */
@@ -531,26 +537,22 @@ footer{
     justify-content: center;
     align-items: center;
     margin-top: 150px;
+    margin-bottom: 10px;
 }
-.footer{
-    justify-content: center;
-    align-items: center;
-}
- .footer .logo-2{
+.logo-2{
     position: relative;
     width: 50%;
-    justify-content: center;
-    align-items: center;
-    margin-top: 50px;
+    left: 70px;
+    margin-top: 60px;
 }
 
-.footer .logo-2 .diamond{
+
+.footer .diamond{
     width: 25px;
     height: 25px;
     background-color: transparent;
     border: 3px solid  #65DAFF;
-    border-radius: 3px;
-    transform: rotate(45deg);
+    transform:rotate(45deg);
     position: absolute;
 }
 
@@ -561,7 +563,6 @@ footer{
     font-weight: 600;
     position: absolute;
     margin-left: 10px;
-    margin-bottom: 15px;
     font-size: 20px;
 }
 .save{
@@ -575,7 +576,7 @@ footer{
 
 .save p{
     display: block;
-    left: 15px;
+    color: #fff;
 }
 
 
@@ -585,11 +586,18 @@ footer{
 /* TABLET VIEW */
 @media screen and (max-width: 850px)
 {
+    header{
+        width: 100%;
+        height: 50%;
+    }
     /* NAV BAR */
     nav{
-        width: 95%;
+        width: 100%;
         height: 8vh;
 
+    }
+    .logo-1{
+        top: -30px;
     }
     .logo{
         font-size: 25px;
@@ -606,28 +614,84 @@ footer{
 
   /* HOME PAGE */
   .home-page{
-    width: 95%;
+    width: 100%;
     display: block;
+    
    }
-   .home-page .left, .home-page right{
+   .home-page .left, .home-page .right{
     width: 100%;
   }
  .home-page .left h1{
     margin-top:50px;
   }
+
   /* BUILD WITH HARVOXX */
   .middle-page{
- width: 95%;
- flex-direction: column;
+ width: 100%;
+ display: block;
   }
+  .middle-page .left-side, .middle-page .right-side{
+    width: 100%;
+  } 
   /* GUARANTEED */
   .guaranteed{
+    width: 100%;
+    display: block;
+  }
+  .guaranteed-boxes{
     flex-wrap: wrap;
    }
+   .guaranteed-box{
+    width: 40%;
+   }
+   /* TRUSTED */
+   .trusted h2{
+    width: 100%;
+    text-align: center;
+   }
+   .source-code{
+    width: 100%;
+    display: block;
+    flex-wrap: wrap-reverse;
+    flex-direction: row-reverse;
+    margin-bottom: 50px;
+   }
+   .source-code .left{
+    width: 100%;
+    margin-bottom: 30px;
+    margin-top: -80px;
+   }
+   .source-code .right{
+    width: 100;
+   }
+   /* WELCOME */
+   .welcome{
+    width: 100%;
+    display: block;
+   }
+   .welcome .left, .welcome .right{
+    width: 100%;
 
-.log-1{
-    width: 70%
+   }
+   /* VEGAS */
+   .vegas{
+    width: 100%;
+    display: block;
+   }
+   .vegas .left, .vegas .right{
+    width: 100%;
+   }
 }
+
+
+/* FOR MOBILIE */
+@media screen and (max-width: 450px){
+    
+.logo-1{
+    width: 70%;
+    
+}
+
 .menu-icon{
     margin-top: 15px;
 }
@@ -636,15 +700,9 @@ footer{
 }
 .home-page .right img{
     margin-top: 50px;
-}
-}
-
-/* BUILD WITH HARVOXX MOBILE */
-@media screen and (max-width: 450px){
-nav{
-    width: 95%;
-    height: 6vh;
+    max-width: 100%;
 }
 
 
+/* /* BUILD WITH HARVOXX MOBILE  */
 }
